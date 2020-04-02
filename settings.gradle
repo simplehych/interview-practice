@@ -1,0 +1,2 @@
+rootProject.name='InterviewPractice'
+include ':app'

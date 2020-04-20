@@ -1,3 +1,4 @@
 <resources>
 	<string name="app_name">InterviewPractice</string>
+	<string name="startIntentService">startIntentService</string>
 </resources>

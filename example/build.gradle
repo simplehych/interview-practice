@@ -5,7 +5,7 @@ android {
     buildToolsVersion "29.0.3"
 
     defaultConfig {
-        applicationId "com.peopeltech.interviewpractice"
+        applicationId "com.peopeltech.example"
         minSdkVersion 21
         targetSdkVersion 29
         versionCode 1
@@ -21,11 +21,6 @@ android {
         }
     }
 
-    compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
-    }
-
 }
 
 dependencies {
@@ -36,18 +31,4 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
-
-    // OkHttp
-    implementation("com.squareup.okhttp3:okhttp:4.5.0")
-
-    // Glide
-    implementation 'com.github.bumptech.glide:glide:4.11.0'
-    annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
-    // Glide transform
-    implementation 'jp.wasabeef:glide-transformations:3.0.1'
-
-    // Glide-Volley-integration
-    implementation("com.github.bumptech.glide:volley-integration:4.11.0")
-    // Volley
-    implementation 'com.android.volley:volley:1.1.1'
 }

@@ -1,2 +1,3 @@
-rootProject.name='InterviewPractice'
+rootProject.name='interview-practice'
 include ':app'
+include ':example'
